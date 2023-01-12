@@ -1,6 +1,6 @@
 import { heroesData } from "../data";
 
-export const getHeroByName = (name = '') => {
+export const getHerosByName = (name = '') => {
   name = name.toLowerCase().trim();
 
   if(name.length === 0) return [];
